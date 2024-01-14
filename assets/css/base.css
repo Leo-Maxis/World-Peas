@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,200;1,6..72,300;1,6..72,400;1,6..72,500;1,6..72,600;1,6..72,700;1,6..72,800&display=swap');
+
+
+:root {
+    --primary-color: #426B1F;
+    --text-color: #000;
+    --text-white-color: #fff;
+}
+* {
+    box-sizing: inherit;
+}
+html {
+    /* 16px */
+    font-size: 100%;
+    line-height: 100%;
+    font-feature-settings: 'clig' off, 'liga';
+    font-family: 'Newsreader';
+    font-style: normal;
+    box-sizing: border-box;
+}
+/* Responsive */
+.grid {
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.btn {
+    
+}
+.primary-btn {
+    padding: 19px 32px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--text-white-color);
+}
