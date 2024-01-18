@@ -57,6 +57,13 @@
     margin: 0 auto;
     padding-bottom: 150px;
 }
+.browse-btn .browse:hover {
+    cursor: pointer;
+}
+.link-shop {
+    text-decoration: none;
+    color: var(--text-white-color);
+}
 .content-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -88,6 +95,10 @@
     margin-top: 10px;
 }
 .basket-header {
+    display: flex;
+    justify-content: space-between;
+}
+.basket-header-content {
     display: flex;
 }
 .basket-logo {
@@ -231,4 +242,94 @@
     gap: 70px;
     border-radius: 8px;
     margin: 20px 24px 0 24px;
+}
+.basket-header.produce-header {
+    align-items: center;
+}
+.produce-filter {
+    display: flex;
+}
+.produce-default {
+    margin: 0px 20px;
+}
+.btn.produce-default {
+    padding: 10px 16px;
+}
+.btn.default {
+    border: none;
+}
+.default {
+    display: inline-flex;
+    padding: 0 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    color: var(--text-white-color);
+}
+.default {
+    cursor: pointer;
+}
+.A-Z, .list-view {
+    display: inline-flex;
+    padding: 0 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #C2C2C2;
+    background-color: #fff;
+}
+.A-Z:hover, .list-view:hover {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--text-white-color);
+}
+.produce-list {
+    margin-left: 35px;
+    margin-top: 40px;
+    display: flex;
+}
+.produce-item {
+    width: 100%;
+    height: 444px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 2px solid #E6E6E6;
+    background-color: #FAFAF5;
+    overflow: hidden;
+}
+.produce-img {
+    width: 100%;
+    height: 296px;
+}
+.produce-item-content {
+    margin-left: 24px;
+}
+.produce-item-name {
+    margin-top: 28px;
+}
+.produce-name {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 130%;
+}
+.produce-price {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 130%;
+}
+.produce-item-from {
+    margin-top: 16px;
+}
+.produce-from {
+    color: #6D6D6D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.produce-item-link {
+    text-decoration: none;
 }
